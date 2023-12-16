@@ -1,129 +1,67 @@
-@font-face {
-    font-family: 'omyu_pretty';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-    body{
-        
-        
-    }
-    nav{
-        font-size: 12pt;
-        font-family: 'PT Sans', Arial, Sans-serif;
-        position: relative;
-    }
-    nav ul{
-        padding: 0;
-        margin: 0 auto;
-        width: auto;
-    }
-    nav li{
-    }
-    nav a{
-        line-height: 50px;
-      height: 80px;
-    }
-    nav li a{
-        box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-    }
-    nav li:last-child a{
-        border-right: 0;
-        }
-    nav a:hover, nav a:active{
-    }
-    nav a#pull{
-        display: none;
-    }
-      html {
-      -webkit-touch-callout:none;
-      -webkit-user-select:none;
-      -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
-      }
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Brands.css">
+    <title>Document</title>
+</head>
+<body style="background-color:#F6F6F6">
+    <div class="menu">
+        <nav class="clearfix">
+            <ul class="menu-list">
+                <li class="h_left"><a href="index.html">Home</a></li>
+                <li class="h_left"><a href="Brands.html">Brands</a></li>
+                <li class="logo"><img src="./img/logo.png" alt="로고" width="110px" height="95px" id="header-logo"></li>
+                <li class="h_right"><a href="Product.html">Product</a></li>
+                <li class="h_right"><a href="NewProduct.html">New product</a></li>
+            </ul>
+        </nav>
+        <div id="nav">
+            <div id="Brands">
+                <nav>
+                    <ul class="brands-list">
+                        <li><a href="#inspire">INSPIRE</a></li>
+                        <li><a href="#spirit">SPIRIT</a></li>
+                        <li><a href="#creative">CREATIVE</a></li>
+                        <li><a href="#together">TOGETHER</a></li>
+                        <li><a href="#design">DESIGN</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="inspire" id="inspire">
+            <h2>우리를 일으키게 하는 힘</h2>
+            <p>저희를 일으키는 힘은 고객 여러분들의 관심입니다.
+            영감이 떠오르는 일도 고객님에서부터 비롯되기 시작하죠.
+            또 다른 시작하는 힘은 모두가 영감을 줘야 시작이 됩니다.</p>
+        </div>
+        <div class="inspire" id="spirit">
+            <h2>우리를 일으키게 하는 힘</h2>
+            <br><br>
+            <h4>저희를 일으키는 힘은 고객 여러분들의 관심입니다.<br> 
+            영감이 떠오르는 일도 고객님에서 부터 비롯되기 시작하죠.<br> 
+            또 다른 시작하는 힘은 모두가 영감을 줘야 시작이 됩니다.</h4>
+        </div> <div class="inspire" id="creative">
+            <h2>우리를 일으키게 하는 힘</h2>
+            <br><br>
+            <h4>저희를 일으키는 힘은 고객 여러분들의 관심입니다.<br> 
+            영감이 떠오르는 일도 고객님에서 부터 비롯되기 시작하죠.<br> 
+            또 다른 시작하는 힘은 모두가 영감을 줘야 시작이 됩니다.</h4>
+        </div> <div class="inspire" id="together">
+            <h2>우리를 일으키게 하는 힘</h2>
+            <br><br>
+            <h4>저희를 일으키는 힘은 고객 여러분들의 관심입니다.<br> 
+            영감이 떠오르는 일도 고객님에서 부터 비롯되기 시작하죠.<br> 
+            또 다른 시작하는 힘은 모두가 영감을 줘야 시작이 됩니다.</h4>
+        </div>
+    </div> <div class="inspire" id="design">
+        <h2>우리를 일으키게 하는 힘</h2>
+        <br><br>
+        <h4>저희를 일으키는 힘은 고객 여러분들의 관심입니다.<br> 
+        영감이 떠오르는 일도 고객님에서 부터 비롯되기 시작하죠.<br> 
+        또 다른 시작하는 힘은 모두가 영감을 줘야 시작이 됩니다.</h4>
+    </div>
     
-      .menu-list a{
-        color: #333;
-      }
-      li{
-        /*position: relative;*/
-        display: inline-block;
-      }
-      li a{
-        color: white;
-        text-align: center;
-        padding: 14.5px 16px;
-        text-decoration: none;
-      }
-      li a:hover{
-        /*color: #597812;*/
-        color: #333;
-        font-weight:bold;
-        text-decoration: underline;
-      }
-      .menu {
-        font-family: 'omyu_pretty' ;
-        margin-top: -10px;
-        margin-bottom: 0px;
-        margin-left: -10px;
-        margin-right: -30px;
-       width: 4000px;
-       height: 60px;
-       text-align: center;
-       max-width: 100%;
-       background-position: center;
-       background-size: cover;
-       background-color: #FFFFFF;color: white;
-       position: relative;z-index: 1;
-       
-     }
-    .h_left{
-        float: left;
-        margin-top: 5px;
-        margin-left: 10px;
-        margin-right: 10px;
-     
-     }
-     .h_right{
-        float: right;
-        margin-top: 5px;
-        margin-left: 10px;
-        margin-right: 10px;
-     }
-      #header-logo{
-        margin-top: -10PX;
-        margin-bottom: 100px;
-      }
-      #Brands a {
-        color: #fff;
-        text-decoration: none;
-        padding: 14.5px 16px;
-        font-size: 18px;
-        position: relative;
-        margin-top: -60px;
-        margin-bottom: -80px;
-      }
-      
-      #Brands a:hover {
-        
-        text-decoration: underline;
-        color: #fff; /* hover 시에 변경할 색상 */
-      }
-      #nav {
-        background-image: url("img/BrandsBack.png");
-        background-size: cover;
-        margin-top: -130px;
-        margin-right: 0px;
-        margin-bottom: 150px;
-        height: 774px;
-      }
-      .inspire{
-        font-size: 30px;
-        color: #333;
-        margin-top: -130px;
-        margin-bottom: 300px;
-        text-align: center;
-      }
-      
-      
+</body>
+</html>

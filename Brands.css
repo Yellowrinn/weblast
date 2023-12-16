@@ -110,7 +110,7 @@
         color: #fff; /* hover 시에 변경할 색상 */
       }
       #nav {
-        background-image: url("img/BrandsBack.png");
+        background-image: url("./img/BrandsBack.png");
         background-size: cover;
         margin-top: -130px;
         margin-right: 0px;

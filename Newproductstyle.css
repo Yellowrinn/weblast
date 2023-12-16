@@ -37,13 +37,7 @@ nav a#pull{
   -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
   }
 
-  ul{
-    /*list-style-type: none;*/
-    margin: 0;
-    padding: 0;
-    background-color: #333;
-    text-align: center;
-  }
+ 
   li{
     /*position: relative;*/
     display: inline-block;

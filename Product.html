@@ -11,7 +11,69 @@
             <li class="h_left"><a href="index.html">Home</a></li> 
             <li class="h_left"><a href="Brands.html">Brands</a></li>
             <li><img src="./img/logo.png" alt="로고" width="110px" height="95px" id ="header-logo"></li>
-            <li class="h_right"><a href="Product.html">Product</a></li>
+            <li class="h_r<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Newproductstyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="menu">
+        <nav class="clearfix">
+            <ul>
+                <li class="h_left"><a href="index.html">Home</a></li> 
+                <li class="h_left"><a href="Brands.html">Brands</a></li>
+                <li><img src="./img/logo.png" alt="로고" width="110px" height="95px" id="header-logo"></li>
+                <li class="h_right"><a href="Product.html">Product</a></li>
+                <li class="h_right"><a href="NewProduct.html">New product</a></li>
+            </ul>
+        </nav>
+    </div>   
+    
+    <div id="main_image">
+        <img class="leftbtn" src="./img/left-arrow.png" alt="Left Button">
+        <img class="rightbtn" src="./img/right-arrow.png" alt="Right Button">
+    </div>
+
+    <script>
+        // 왼쪽 버튼 이미지 클릭 시 동작
+        window.addEventListener("DOMContentLoaded", () => {
+            var leftBtn = document.querySelector(".leftbtn");
+            var arrImg = ["./img/cherryneco.png", "./img/wade.png", "./img/spoa.png"];
+            var cntleft = 1;
+            leftBtn.onclick = function () {
+                var mainImg = document.querySelector("#main_image");
+                if (mainImg && cntleft >= arrImg.length) {
+                    cntleft = 0;
+                }
+                cntleft++;
+                if (mainImg) {
+                    mainImg.style.backgroundImage = "url(" + arrImg[cntleft - 1] + ")";
+                }
+            }
+        });
+
+        // 오른쪽 버튼 이미지 클릭 시 동작
+        window.addEventListener("DOMContentLoaded", () => {
+            var rightBtn = document.querySelector(".rightbtn");
+            var arrImg = ["./img/cherryneco.png", "./img/wade.png", "./img/spoa.png"];
+            var cntright = arrImg.length;
+            rightBtn.onclick = function () {
+                var mainImg = document.querySelector("#main_image");
+                cntright--;
+                if (mainImg && cntright < 0) {
+                    cntright = arrImg.length - 1;
+                }
+                if (mainImg) {
+                    mainImg.style.backgroundImage = "url(" + arrImg[cntright] + ")";
+                }
+            }
+        });
+    </script>
+</body>
+</html>
+ight"><a href="Product.html">Product</a></li>
             <li class="h_right"><a href="NewProduct.html">New product</a></li>
         </nav>
    

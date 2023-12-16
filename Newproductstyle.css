@@ -1,5 +1,5 @@
 body{
-  background-image: url("img/NewproductBack.jpg");
+  background-image: url("./img/NewproductBack.jpg");
   background-size: cover;
 }
 nav{
@@ -103,7 +103,7 @@ nav a#pull{
     margin-top: 200px;
     margin-bottom: 40px;
     background-color: #ababab;
-    background-image: url("img\cherryneco.png");
+    background-image: url("./img/cherryneco.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
